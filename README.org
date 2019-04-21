@@ -2,6 +2,8 @@
 
 Sphinx extensions.
 
+~poetry add sphinxcontrib-vai --git https://github.com/Vernacular-ai/sphinxcontrib-vai.git --dev~
+
 ** ~sphinxcontrib.vai.pandoc_s2s~
 Enables source to source conversion (to rst) for pandoc accepted formats. For
 using, add the following in ~conf.py~:
