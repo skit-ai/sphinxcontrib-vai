@@ -1,3 +1,13 @@
 #+TITLE: sphinxcontrib-vai
 
 Sphinx extensions.
+
+** ~sphinxcontrib.vai.pandoc_s2s~
+Enables source to source conversion (to rst) for pandoc accepted formats. For
+using, add the following in ~conf.py~:
+
+#+begin_src python
+  extensions = [..., "sphinxcontrib.vai.pandoc_s2s"]
+  source_suffix = [".rst", ".org"]  # Accept org as valid doc format
+  pandoc_s2s_formats = [".org"]  # Defaults to [".org", ".md"]
+#+end_src

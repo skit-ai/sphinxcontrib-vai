@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "sphinxcontrib-vai"
 version = "0.1.0"
-description = ""
+description = "Sphinx extensions"
 authors = ["Abhinav Tushar <lepisma@fastmail.com>"]
-packages = [{ include = "sphinxcontrib.vai" }]
+packages = [{ include = "sphinxcontrib/vai" }]
 
 [tool.poetry.dependencies]
 python = "^3.6"
